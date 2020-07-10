@@ -1,3 +1,8 @@
+# This script loads the covid 19 data for Korean provinces provided at
+# https://www.kaggle.com/kimjihoo/coronavirusdataset/data?select=TimeProvince.csv
+# and saves them in independent files, one for each province. 
+# Note that the data were previously downloaded in the folder containing this script. 
+
 library(tidyverse)
 library(data.table)
 
